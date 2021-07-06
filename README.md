@@ -1,4 +1,4 @@
-La baroomètre national de la Science Ouverte (BNSO) a été développé Eric Jeangirard en 2019, au sein du ministère de l'enseignement supérieur de la recherche et de la recherche (MESRI). 
+La baromètre national de la Science Ouverte (BNSO) a été développé Eric Jeangirard en 2019, au sein du ministère de l'enseignement supérieur de la recherche et de la recherche (MESRI). 
 Le résultat, le code et la méthdologique sont disponibles en ligne à partit de cette adresse  : https://ministeresuprecherche.github.io/bso/ 
 Laetitia Bracco, data librarian à l'Université de Lorraine, a adapté le code du BSNO pour que chaque établissement puisse se l'approprier.
 Nous nous sommes donc inspirés du baromètre de l'Université de Lorraine : https://gitlab.com/Cthulhus_Queen/barometre_scienceouverte_universitedelorraine/-/tree/master
