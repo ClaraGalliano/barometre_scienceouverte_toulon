@@ -1,0 +1,34 @@
+Les requêtes suivantes ont été saisies dans les différentes bases de données pour obtenir les listes de publications par année :
+
+Web of Science
+Chercher en "Organization enhanced" et trouver le nom de son établissement dans l'index (exemple : Universite de Lorraine)
+Custom year range : faire les extractions année par année. Commencer par "2016-2016"
+Mode de récupération des données : depuis la liste de résultats, extraire en "fast 5000", tab-delimited Win qui produit un document txt, à enregistrer dans "Data > raw > 2016", le nommer "wos_nometablissement_2016"
+
+
+PubMed
+Sauvegarder tous les résultats au format CSV
+Extraire année par année
+
+Détail de l'extraction pour l'Université de Lorraine :
+(("universite de lorraine"[Affiliation] OR "university of lorraine"[Affiliation] 
+OR "university of lorraine and"[Affiliation] OR "universite lorraine"[Affiliation] 
+OR "university lorraine"[Affiliation]) AND "2016"[Date - Publication] : "2016"[Date - Publication])
+
+
+HAL-UL
+Toute la collection HAL-UL via ExtrHAL. URL : https://halur1.univ-rennes1.fr/ExtrHAL.php
+
+Dans le code collection, mettre "UNIV-LORRAINE".
+Extraire année par année. Dans la liste de résultats, cliquer sur le bouton "VOSviewerDOI" pour avoir la liste des DOI.
+Copier cette liste dans un fichier csv avec "doi" comme nom de colonne (pour avoir un exemple, voir les fichiers de l'Université
+de Lorraine).
+
+
+APC
+https://zenodo.org/record/3491721#.Xkqrf0pCdPY
+
+
+Lens.org
+Institution : University of Lorraine
+Exporter le champ DOI uniquement, au format CSV
