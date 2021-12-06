@@ -16,8 +16,8 @@ La liste des requêtes utilisées est dans le fichier "requetes_bdd".
 Les extractions dans les bases de données doivent se faire exactement comme c'est expliqué dans le notebook qui s'appelle "nettoyage_donnees".
 Il faut effacer le contenu du dossier 'outputs' pour enlever les graphiques existants (mais conserver le dossier vide).
 
-5) Dans le dossier qui est sur le bureau, enlever les fichiers lorrains dans le dossier Data/raw et les remplacer par les vôtres. 
-Attention, il faut reproduire très exactement le nommage des fichiers. Dans le code lorrain par exemple, le fichier 2016 du Web of Science 
+5) Dans le dossier qui est sur le bureau, enlever les fichiers toulonnais dans le dossier Data/raw et les remplacer par les vôtres. 
+Attention, il faut reproduire très exactement le nommage des fichiers. Dans le code toulonnais par exemple, le fichier 2016 du Web of Science 
 s'appelle "wos_toulon_2016". Remplacez les occurrences de "toulon" par le nom de votre établissement.
 
 6) Ouvrir le notebook "nettoyage_donnees". Remplacer toutes les occurrences de "toulon" par le nom de l'établissement (attention : utiliser le même nom que pour les extractions de bases de données).
